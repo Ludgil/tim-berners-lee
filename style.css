@@ -66,3 +66,92 @@ header a{
 header strong{
   font-weight: 700;
 }
+
+.social-media{
+  width: 550px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 6px;
+}
+
+.social-media ul{
+  width: 550px;
+  margin: 0;
+  padding: 45px 50px 45px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.social-media li{
+  list-style: none;
+}
+.social-media a{
+font-family: "Montserrat", sans-serif;
+font-size: 22px;
+font-weight: 400;
+text-decoration: none;
+color: #cccccc;
+padding: 5px;
+}
+.social-media i{
+  font-size: 22px;
+  color: #cccccc;
+  padding: 5px;
+}
+
+.btn-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moovie{
+  width: 550px;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 6px;
+}
+
+.moovie img{
+  align-self: flex-start;
+  width: 100px;
+}
+.moovie figcaption{
+  align-self: center;
+}
+.moovie h2{
+  align-self: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 22px;
+  color: #7d7d7d;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 0;
+
+}
+.moovie p{
+  align-self: flex-start;
+}
