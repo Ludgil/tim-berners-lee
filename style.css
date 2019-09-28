@@ -15,6 +15,9 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 40px;
 border-radius: 6px;
+-webkit-box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
+-moz-box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
+box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
 }
 
 header img{
@@ -77,6 +80,9 @@ header strong{
   margin-right: auto;
   margin-top: 30px;
   border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
+-moz-box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
+box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
 }
 
 .social-media ul{
@@ -126,32 +132,72 @@ padding: 5px;
   width: 550px;
   padding: 20px;
   display: flex;
-  justify-content: left;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
+-moz-box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
+box-shadow: 1px 1px 1px 0px rgba(150,150,150,1);
+}
+
+.moovie-column-left{
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.moovie-column-right{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.moovie-column-right h3{
+  align-self: center;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.moovie span {
+  background-color: #d4d4d4;
 }
 
 .moovie img{
-  align-self: flex-start;
   width: 100px;
 }
-.moovie figcaption{
-  align-self: center;
-}
+
 .moovie h2{
-  align-self: center;
+  width: 570px;
   font-family: "Montserrat",sans-serif;
   font-size: 22px;
   color: #7d7d7d;
   font-weight: 700;
-  margin-top: 15px;
-  margin-bottom: 0;
-
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
+
+.moovie h3{
+  font-family: "Montserrat",sans-serif;
+  font-size: 22px;
+  color: #7d7d7d;
+  font-weight:700;
+}
+
 .moovie p{
-  align-self: flex-start;
+  font-family: "Open-Sans",sans-serif;
+  font-size: 16px;
+  color: #7d7d7d;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.6em;
+  margin-bottom: 20px;
 }
